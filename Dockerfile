@@ -8,4 +8,4 @@ RUN composer global require justinwalsh/daux.io
 ENV PATH /root/.composer/vendor/bin:$PATH
 
 ENTRYPOINT ["daux"]
-CMD ["generate", "--source=/input", "--destination=/output", "--search", "--no-interaction"]
+CMD ["generate", "--source=/input", "--destination=/output", "--no-interaction"]
